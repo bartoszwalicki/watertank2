@@ -1,0 +1,1 @@
+{ "src/**/*.{html,scss,ts,json}": ["eslint --fix", "npm run prettier:write"] }
