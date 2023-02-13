@@ -1,0 +1,19 @@
+@use '../../../../styles/base/mixins';
+@use '../../../../styles/base/colors';
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 15px;
+
+  .icon {
+    @include mixins.icon-size(30px, 30px);
+  }
+
+  .text {
+    margin-left: 15px;
+    font-size: 16px;
+    color: colors.$white;
+  }
+}

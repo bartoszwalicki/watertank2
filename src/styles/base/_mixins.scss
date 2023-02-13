@@ -1,0 +1,5 @@
+@mixin icon-size($width, $height: $width) {
+  width: $width;
+  height: $height;
+  mask-size: $width $height;
+}

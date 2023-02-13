@@ -1,0 +1,23 @@
+@use 'colors';
+@use 'mixins' as *;
+
+.chart-icon {
+  mask: url('../../assets/icons/chart.svg');
+
+  @include icon-size(24px, 24px);
+  background-color: colors.$white;
+}
+
+.water-icon {
+  mask: url('../../assets/icons/water.svg');
+
+  @include icon-size(24px, 24px);
+  background-color: colors.$white;
+}
+
+.note-icon {
+  mask: url('../../assets/icons/note.svg');
+
+  @include icon-size(24px, 24px);
+  background-color: colors.$white;
+}

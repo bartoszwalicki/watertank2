@@ -1,0 +1,12 @@
+@use '../../../../styles/base/colors';
+
+.sidebar {
+  .menu {
+    display: flex;
+    gap: 10px;
+
+    .sidebar-item {
+      border: 1px solid colors.$gray;
+    }
+  }
+}

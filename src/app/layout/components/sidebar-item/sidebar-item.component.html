@@ -1,1 +1,4 @@
-<p>sidebar-item works!</p>
+<a [href]="target" class="sidebar-item" [ariaLabel]="'Navigate to ' + label">
+  <div [ngClass]="iconCssClass" class="icon"></div>
+  <span class="text">{{ label }}</span>
+</a>
